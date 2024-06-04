@@ -9,7 +9,7 @@
 --title-h1: 2.4rem;
 --title-h2: 2rem;
 --title-h3: 1.6rem;
---text: 1.4rem;
+--text: 1.2rem;
 }
 
 html {
@@ -51,4 +51,20 @@ body {
 .somos p {
     margin-top: 24px;
     text-align: justify;
+}
+
+.nosotros__card {
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+.nosotros__card .icono {
+    width: 35px;
+    height: 35px;
+}
+.nosotros__card .subtitulo {
+    margin: 16px 0;
+}
+
+.nosotros__card.mision {
+    margin: 64px 0 32px 0;
 }
