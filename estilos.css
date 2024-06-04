@@ -35,6 +35,50 @@ body {
 .texto {
     font-size: var(--text);
 }
+.inactive {
+    display: none;
+}
+
+
+header {
+    position: relative;
+    height: 80px;
+}
+nav {
+    height: 100%;
+    padding: 0 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--beige);
+}
+header ul {
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color: var(--gray-bold);
+    font-size: var(--text);
+    font-weight: bold;
+}
+header .menu__lista {
+    position: absolute;
+    right: 0;
+    background-color: white;
+    width: 75%;
+    height: 100vh;
+}
+header .menu__lista ul {
+    margin-top: 96px;
+    padding: 0
+}
+header .menu__lista li a {
+    display: block;
+    height: 49px;
+    padding-left: 16px;
+    border-bottom: var(--gray-light) 0.5px solid;
+    align-content: center;
+}
 
 
 .hero-nosotros {
