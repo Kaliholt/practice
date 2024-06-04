@@ -26,6 +26,10 @@ body {
     line-height: 20px;
 }
 
+main {
+    padding-bottom: 32px;
+}
+
 .titulo {
     font-size: var(--title-h2);
 }
@@ -89,6 +93,40 @@ header .menu__lista li a {
     padding-left: 16px;
     border-bottom: var(--gray-light) 0.5px solid;
     align-content: center;
+}
+
+
+footer {
+    padding: 32px 16px; 
+    background-color: var(--brown);
+    color: white;
+}
+footer h3 {
+    margin: 0;
+}
+footer .siguenos .contenedor-redes-sociales {
+    width: 180px;
+    display: flex;
+    padding-top: 16px;
+    justify-content: space-between;
+}
+footer .contactanos, .privacidad, .faqs {
+    margin-top: 32px;
+}
+footer .contactanos .contenedor-informacion-contacto {
+    margin-top: 16px;
+}
+footer .contactanos .contenedor-informacion-contacto article {
+    display: flex;
+}
+footer .contactanos .contenedor-informacion-contacto article .icono {
+    margin-right: 8px;
+}
+footer .copyright {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 32px;
+    color: var(--gray-light);
 }
 
 
