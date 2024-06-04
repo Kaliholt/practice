@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="logo" src="./assets/images/logo.png" alt="Logo de la Agencia Lluvia de Arena">
+             <ul class="paginas">
+                <li><a href="#">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="#">Tours</a></li>
+                <li><a href="./contact.html">Contacto</a></li>
+             </ul>
+             <img class="icono icono--menu" src="./assets/icons/menu.svg" alt="">
+        </nav>
+        <section class="menu__lista">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="#">Tours</a></li>
+                <li><a href="./contact.html">Contacto</a></li>
+             </ul>
+        </section>
+    </header>
+    <main>
+        <section class="hero-contacto">
+            <h2>Disfruta tus Vacaciones</h2>
+            <div class="shadow"></div>
+        </section>
+        <section class="form">
+            <form action="">
+                <label for="name">
+                    <span>Nombres:</span>
+                    <input type="text" name="name" id="name" autocomplete="name" required>
+                </label>
+                <label for="lastname">
+                    <span>Apellidos:</span>
+                    <input type="text" name="lastname" id="lastname" autocomplete="given-name" required>
+                </label>
+                <label for="phone">
+                    <span>Teléfono:</span>
+                    <input type="text" name="phone" id="phone" autocomplete="tel" required>
+                </label>
+                <label for="email">
+                    <span>Email:</span>
+                    <input type="text" name="email" id="email" autocomplete="email" required>
+                </label>
+                <label for="message">
+                    <span>Mensaje:</span>
+                    <input type="text" name="message" id="message" required>
+                </label>
+                <input type="button" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="siguenos">
+            <h3>Síguenos:</h3>
+            <div class="contenedor-icono"><img class="icono icono--facebook" src="./assets/icons/facebook.svg" alt=""></div>
+            <div class="contenedor-icono"><img class="icono icono--twitter" src="./assets/icons/twitter.svg" alt=""></div>
+            <div class="contenedor-icono"><img class="icono icono--youtube" src="./assets/icons/youtube.svg" alt=""></div>
+            <div class="contenedor-icono"><img class="icono icono--instagram" src="./assets/icons/instagram.svg" alt=""></div>
+        </div>
+        <div class="contactanos">
+            <h3 class="subtitulo">Contáctanos:</h3>
+            <article>
+                <img class="icono icono--telefono" src="./assets/icons/phone.svg" alt="">
+                <p class="texto">+51 956045734</p>
+            </article>
+            <article>
+                <img class="icono icono--sobre" src="./assets/icons/envelope.svg" alt="">
+                <p class="texto">informes@lluviadearena.com</p>
+            </article>
+            <article>
+                <img class="icono icono--ubicacion" src="./assets/icons/location.svg" alt="">
+                <p class="texto">Av. Alan García Mz.F Lt.15</p>
+            </article>
+        </div>
+        <div class="privacidad">
+            <h3 class="subtitulo">Privacidad:</h3>
+            <p class="texto">Políticas de Privacidad</p>
+            <p class="texto">Términos y Condiciones</p>
+            <p class="texto">Políticas de Cookies</p>
+        </div>
+        <div class="faqs">
+            <h3 class="subtitulo">FAQs</h3>
+            <p class="texto">Preguntas frecuentes</p>
+        </div>
+        <legend class="texto copyright">Copyright ©2024 by <b>Lluvia de Arena</b></legend>
+    </footer>
+</body>
+</html>
